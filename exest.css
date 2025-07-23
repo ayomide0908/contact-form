@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  align-items: center;
+  justify-content: center;
+display: flex;
+  height: 100vh;
+
+  background: rgb(201, 244, 201);
+}
+.box{
+background: white;
+padding: 25px;
+border-radius: 9px;
+font-family: arial;
+color: rgb(108, 106, 106);
+font-size: 12px;
+
+}
+.contact{
+font-size: 1.2rem;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font: weight 1400px;
+ margin-bottom:10px ;
+}
+label{
+  margin: 5px 0px;
+    font-size: 11px;
+}
+input{
+  border: 1px solid rgb(184, 184, 184);
+  height: 25px;
+  border-radius: 5px;
+}
+.name{
+  font-weight: 400px;
+  font-size: 11px;
+ display: flex;
+ margin-bottom:10px ;
+ .First{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  
+ }
+.Last{
+  display: flex;
+  flex-direction: column;
+ }
+}
+.email{
+   margin-bottom:10px ;
+}
+.email-text{
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+}
+.query{
+  display: flex ;
+  margin-top: 0px;
+
+}
+.radio1{
+  border:solid 1px rgb(172, 172, 172);
+  border-radius: 5px;
+  width:50%;
+  padding: 3px;
+height: 30px;
+}
+.radio2{
+  border:solid 1px rgb(172, 172, 172);
+  border-radius: 5px;
+  width:50%;
+  padding: 3px;
+height: 30px;
+}
+
+.message{
+  margin-top: 10px;
+  display: flex;
+   margin-bottom:0px ;
+  flex-direction: column;
+ 
+}
+.consent{
+  color: grey;
+}
+.button{
+  background-color: rgb(10, 42, 33);
+  font-size: 11px;
+  color: white;
+padding: 10px 10px 10PX;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px;
+border: none;
+width: 100%;
+}
